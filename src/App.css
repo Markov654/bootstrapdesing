@@ -1,17 +1,24 @@
 .container{
   background-color: aqua;
-  width: 50%;
+  width: 100%;
 
 }
 
 
 
-.row{
- border: 1px solid black;
-}
 
-.col{
-  border: 1px solid black;
+ .mql{
+  color: brown;
+  text-align: center;
+  display: flex;
+  flex-direction: column
+
+ }
+ @media only screen and (min-width: 800px) {
+
+  .mql{
+   flex-direction: row;
+  }
  }
 
 

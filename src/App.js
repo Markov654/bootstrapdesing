@@ -4,22 +4,28 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div class="container">
+    <div class="container ">
     <div class="row">
-      <div class="col">
-        <img src={logo}></img>
+      <div class="col-md-3">
+        <img src = {logo}></img>
       </div>
-      <div class="col-6">
-        mql 
-        bau 
-        bum bum
+      
+      <div class="col-md-6 mql">
+        <span>mql</span>
+        <span>mql</span>
+        <span>mql</span>
+        
+        
       </div>
-      <div class="col">
+      <div class="col-md-3">
         3 of 3
       </div>
     </div>
    
   </div>
+
+
+
   );
 }
 
